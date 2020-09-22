@@ -183,6 +183,7 @@ function botonJ0() {
     if (numbCont == "123456789" && letraCont == "ABCDEFGHIJ") {
         numeros. innerHTML = "1234567890";
         numbCont = "1234567890";
+        swal("Has completado el ejercicio!","FELICITACIONES", "success");
     } else {
     if (letraCont == "ABCDEFGHI") {
     letras. innerHTML = "ABCDEFGHIJ"; 
@@ -194,7 +195,9 @@ function botonJ0() {
     }
     }
     
+    
 }
+
 
 function botonClean() {
     numeros. innerHTML = "";
